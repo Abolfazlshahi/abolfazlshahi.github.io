@@ -8,7 +8,7 @@
  */
 @font-face {
     font-family: 'doran_font'; /* یه اسم برای فونتت بذار */
-    src: url('../../../asets/Font/DoranFaNum-Medium.ttf') format('truetype') /* مسیر فایل فونتت */
+    src: url('../DoranFaNum-Medium.ttf') format('truetype') /* مسیر فایل فونتت */
          ;
     font-weight: normal; /* اگه وزن‌های مختلفی داری، برای هر کدوم جدا @font-face تعریف کن */
     font-style: normal;
