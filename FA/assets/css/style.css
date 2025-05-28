@@ -6,6 +6,14 @@
 /**
  * copyright 2022 @codewithsadee
  */
+@font-face {
+    font-family: 'doran_font'; /* یه اسم برای فونتت بذار */
+    src: url('../../../asets/Font/DoranFaNum-Medium.ttf') format('truetype') /* مسیر فایل فونتت */
+         ;
+    font-weight: normal; /* اگه وزن‌های مختلفی داری، برای هر کدوم جدا @font-face تعریف کن */
+    font-style: normal;
+}
+
 
 
 
@@ -74,7 +82,7 @@
    */
 
   /* font-family */
-  --ff-poppins: "Vazirmatn", sans-serif;
+  --ff-poppins: "doran_font", "Vazirmatn" , sans-serif;
 
   /* font-size */
   --fs-1: 24px;
